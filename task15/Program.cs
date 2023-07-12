@@ -3,3 +3,9 @@
 // 6 -> да
 // 7 -> да
 // 1 -> нет
+
+int a = int.Parse("10");
+double b = double.Parse("23,56");
+decimal c = decimal.Parse("12,45");
+byte d = byte.Parse("4");
+Console.WriteLine($"a={a}  b={b}  c={c}  d={d}");
